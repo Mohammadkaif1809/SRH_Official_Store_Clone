@@ -76,15 +76,8 @@ Design Patterns
 Mobile-First - Responsive design approach
 Component-Based - Modular CSS architecture
 Semantic HTML - Proper HTML5 structure and accessibility
-📁 File Structure
-srh-shop/
-├── attached_assets/
-│   ├── index_1754577753388.html    # Main HTML file
-│   ├── style_1754577753391.css     # Main stylesheet
-│   
-├── .replit                         # Replit configuration
-├── README.md                       # Project documentation
-└── replit.md                       # Project architecture notes
+                   
+
 Asset Organization
 HTML Structure: Single-page application with semantic sections
 CSS Styling: Organized with clear section comments and responsive design
