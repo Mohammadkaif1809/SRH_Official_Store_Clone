@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    padding-top: 50px;
+    overflow-x: hidden;
+
+}
+body img{
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+    transition-delay: .1s;
+}
+
+body img:hover{
+    scale: 1.03;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #981E1B;
+    font-size: 15px; 
+    box-shadow:0px 1px 2px rgba(0, 0, 0, 0.173);
+    z-index: 1000;
+    
+}
+
+nav a{
+    position: relative;
+    top: 5px;
+    color: white;
+    text-decoration: none; 
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-property: all;
+    font-size: 15.3px;
+}
+
+nav a:hover{
+    scale: 1.08;
+}
+
+nav .icons{
+    position: relative;
+    top: 5px;
+}
+
+nav .icons:hover{
+    scale: 1.08;
+}
+
+.navbar{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #981E1B;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menubar{
+    height:40px ;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menusym{
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+    margin-top: 16px;
+    display: flex;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;   
+}
+
+.menusym:hover{
+    scale: 1.4;
+}
+
+
+#logo img{
+    width: 121px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo span{
+    position: relative;
+    top: 5px;
+}
+
+.aoltags ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.aoltags ul a{
+    margin-left: 10px;
+}
+
+.aoltags ul li{
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+.aoltags{
+    display: flex;
+    margin-right: 70px;   
+}
+
+.searchcontainer{
+    width: 530px;
+    height: 44px;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    top: 9.5px;
+    display: flex;
+    justify-content: flex-end;   
+}
+.atags{
+    font-size: 14px;
+}
+.search-icon{
+    position: absolute;
+    top: 15%;
+    margin-left: 8px;
+    height: 20px;
+}
+.searchcontainer #searchbtn{
+    height: 36px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.aoltags ul li:hover{
+    scale: 1.08;
+}
+
+.searchcontainer #searchbtn:hover{
+    scale: 1.02;
+    color: #981E1B;
+    background-color: antiquewhite;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.wishlist{
+    display: flex;
+    align-items: center;
+    gap: 6px;  
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 20px;
+}
+
+.cart img{
+    height: 22px;
+}
+
+
+
+/* hero */
+main{
+    background-color: #FAFAFA;
+}
+
+.container img{
+    height: 520px;
+    width:100%;  
+    object-fit: cover;
+    margin-top: 5px;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+    transition-delay: .1s;
+}
+
+.container img:hover{
+    scale: 1.01;
+}
+
+.hero2 .heading{
+  
+    display: flex;
+    margin-top: 25px;
+    padding: 10px;
+    margin-left: 6rem;
+}
+
+.hero2 .shopby img{
+    height: 300px;
+    width: 214px;
+    
+}
+.hero2 .shopby{
+    display: flex;
+    padding-left: 6rem;
+    margin-top: 20px;
+    gap:50px;
+}
+
+
+.hero3 .heading2{
+    display: flex;
+    margin-top: 48px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.hero3 .heading2{
+    position: relative;
+    left: 90px;
+}
+
+.hero3 .heading2 img{
+    height: 2rem;
+}
+
+.hero3 .nd img{
+    height: 300px;
+    width: 224px;
+}
+
+.hero3 .nd{
+    display: flex;
+    padding-left: 6rem;
+    gap:45px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hero3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero3 .newdrop{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.nd a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 14px;
+
+}
+.nd a b{
+    color: black;
+    font-size: 18px;
+}
+.nd .color{
+    color:#00994C;
+}
+
+.banner{
+    background-color: #F6F7F8;
+    margin-top: 48px;
+}
+.banner img{
+    padding-top: 20px;
+    width: 100%;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+
+.banner img:hover{
+    scale: 1.02;
+}
+
+.banner .sbp .hero3 .align1 .sbp-container .ffa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading3{
+
+    width: 100%;
+    margin-top: 25px;
+    height: 40px;
+}
+
+.heading3 h2{
+    position: relative;
+    left: 90px;
+}
+
+.sbp .playersimg img{
+    height: 370px;
+    width: 260px;
+}
+.sbp .playersimg ul{
+    margin-top:20px ;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    left: 80px;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.sbp .playersimg ul li{
+    list-style: none;
+}
+
+.sbp-container{
+    background-image: url("ShopByPrice.png");
+    height: 340px;
+    width: 100%;
+    color: white;
+
+}
+.sbp-container ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+    left:80px ;
+    
+}
+
+.sbp-container ul li{
+    list-style: none;
+}
+
+.sbp-container .heading4{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+    left: 80px;
+
+}
+
+.ffa{
+    height: 540px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    
+}
+
+.ffa .heading5{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+.ffa .heading5 img{
+    height: 34px;
+    margin-top: -3px;
+}
+.ffa .ffaimgs .box{
+    height: 300px;
+    width: 220px;
+    border-radius: 10px;
+}
+.ffa .ffaimgs{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.ffa .ffaimgs .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.25rem;
+    gap: 5px;
+}
+
+.ffa a{
+    text-decoration: none;
+    color: black;
+}
+
+.ffa .ffaimgs p{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 0.86rem;
+}
+
+.ffa .ffaimgs .loveimg img{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+    top: -22.5rem;
+    left: 11rem;
+}
+
+
+
+/* footer */
+
+.pagefooter{
+    height: 485px;
+    background-color: #981E1B;
+    width: 100%;
+    padding-top: 65px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+
+.pagefooter li{
+    list-style: none; 
+}
+.pagefooter a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.488);
+}
+footer .topbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h1{
+    font-size: 1.0rem;
+    color: white;
+}
+
+footer .box{
+    height: 150px;
+    width: 150;
+    line-height: 2rem;
+}
+footer .footerimgs .imgs{
+    display: flex;
+    gap: 10px; 
+}
+
+.footerimgs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .imgs img{
+    height: 48px;
+    width: 48px;  
+}
+
+footer .imgs strong{
+    font-size: 0.900rem;
+}
+footer .imgs p{
+    font-size: 0.800rem;
+    color: rgba(255, 255, 255, 0.723);
+}
+footer .imgline{
+    line-height: 20px;
+}
+
+.feedback{
+    width: 300px;
+    column-gap: 30px;  
+}
+.feedback .titlefeedback{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feedback #mail{
+    height: 47px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+}
+.feedback .socials{
+    display: flex;
+    gap: 13px;
+}
+.feedback .socials img{
+    height: 35px;
+    width: 35px;
+}
+
+.bottomfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.bottomfooter .tc1{
+    margin-left: 4.5rem;
+}
+.bottomfooter .tc2{
+    margin-right: 4.5rem;
+    display: flex;
+    
+}
+.bottomfooter .tc2 img{
+    position: relative;
+    top: -6px;
+    height: 2rem;
+}
+
+
