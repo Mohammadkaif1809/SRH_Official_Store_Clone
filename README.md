@@ -2,21 +2,6 @@ SRH Shop - Sunrisers Hyderabad Official Merchandise Store🧡
 
 e-commerce website for Sunrisers Hyderabad cricket team merchandise, featuring jerseys, accessories, and lifestyle products with authentic team branding and responsive design.
 
-📋 Table of Contents
-Overview
-Features
-Demo
-Technology Stack
-File Structure
-Installation
-Usage
-Design System
-Browser Compatibility
-Performance
-Contributing
-License
-Contact
-
 🏏 Overview
 SRH official store is a modern, responsive e-commerce website dedicated to Sunrisers Hyderabad cricket team merchandise. The website offers a seamless shopping experience with features like product categorization, player-specific merchandise, price-based filtering, and a comprehensive product catalog.
 
